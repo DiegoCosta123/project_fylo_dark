@@ -1,0 +1,308 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#fylo_main {
+    background: url(images/bg-curvy-desktop.svg);
+    background-size: cover;
+    position: relative;
+    background-color: hsl(217, 28%, 15%)
+}
+
+#fylo_main {
+    padding: 45px;
+}
+
+.title_main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.option_login {
+    display: flex;
+    gap: 30px;
+    color: #F8F8F8;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title_container {
+    color: white;
+}
+
+.img_text {
+    text-align: center;
+}
+
+.img_access {
+    width: 300px;
+    height: 300px;
+}
+
+.title_descrpt {
+    width: 70%;
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
+}
+
+.description {
+    margin-top: 15px;
+    font-weight: lighter;
+}
+
+#button {
+    width: 198px;
+    height: 50px;
+    background-color: hsl(198, 60%, 50%);
+    color: #F8F8F8;
+    border-radius: 50px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.icons_titles {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    gap: 100px;
+    margin-top: 150px;
+}
+
+.first_icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    flex-wrap: wrap;
+}
+
+.icon_access {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.access_container {
+    color: #F8F8F8;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.description_computer {
+    width: 400px;
+}
+
+.access_security {
+    color: #F8F8F8;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.secound_icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    flex-wrap: wrap;
+}
+
+.img_stay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 150px;
+}
+
+.title_descrpt_stay {
+    color: #F8F8F8;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 50px;
+    width: 50%;
+}
+
+.title_stay {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.descrpt_stay {
+    margin-top: 15px;
+}
+
+.line_text {
+    color: hsl(198, 60%, 50%);
+    margin-top: 15px;
+    display: inline-block;
+    padding-bottom: 5px;
+    border-bottom: 1px solid hsl(198, 60%, 50%);
+}
+
+.type_comtent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.square_person {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.square_social {
+    width: 350px;
+    height: 200px;
+    background-color: hsl(219, 30%, 18%);
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+}
+
+.person_text {
+    margin: 35px 20px 0 30px;
+    line-height: 25px;
+    color: #F8F8F8;
+}
+
+.perfil {
+    display: flex;
+    align-items: center;
+    color: #F8F8F8;
+    margin-top: 15px;
+    margin-left: 27px;
+}
+
+.img_perfil {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+}
+
+.name_perfil {
+    margin-left: 15px;
+}
+
+.name {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.identify {
+    font-size: 9px;
+    margin-top: 5px;
+}
+
+.contact_fylo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.email {
+    width: 700px;
+    height: 250px;
+    background-color: hsl(217, 28%, 15%);
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+    margin-top: 200px;
+    color: #F8F8F8;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.427);
+    padding: 0 70px;
+}
+
+.title_emnail {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.descrpt_email {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.camp_text {
+    display: flex;
+    margin-top: 40px;
+    gap: 30px;
+}
+
+#text_email {
+    width: 400px;
+    height: 50px;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 0 20px;
+}
+
+#btn_email {
+    width: 200px;
+    background-color: hsl(198, 60%, 50%);
+    color: #F8F8F8;
+    border-radius: 50px;
+    font-weight: bold;
+    border: none;
+}
+
+.contact_social_network {
+    display: flex;
+    color: #F8F8F8;
+    margin-top: 100px;
+    gap: 100px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 100px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.location {
+    width: 30%;
+}
+
+.lorem_content {
+    margin-top: 30px;
+    line-height: 25px;
+}
+
+.text_local {
+    display: flex;
+}
+
+.cell_email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 50px;
+}
+
+.about_jobs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 100px;
+}
+
+.terms_privacy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 70px;
+}
+
