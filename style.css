@@ -306,3 +306,53 @@
     margin-top: 70px;
 }
 
+@media screen and (max-width: 900px) {
+    .img_content {
+        width: 45%;
+    }
+
+    .email {
+        width: 445px;
+        height: 385px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .camp_text {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #text_email {
+        width: 100%;
+        height: 50px;
+    }
+
+    #btn_email {
+        width: 160px;
+        height: 60px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    .contact_social_network {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .location {
+        width: 75%;
+    }
+
+    .about_jobs {
+        margin-top: 45px;
+    }
+
+    .terms_privacy {
+        margin-top: 50px;
+    }
+}
+
